@@ -3,5 +3,7 @@
         "**/.github": true,
         "**/.vscode": true,
         "**/.cursor": true
-    }
+    },
+    "git.ignoreLimitWarning": true,
+    "codeQL.githubDatabase.download": "never"
 }
