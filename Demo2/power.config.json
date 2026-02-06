@@ -1,0 +1,32 @@
+{
+  "appId": "383c9357-233b-4dcf-b725-c1c6774cb354",
+  "appDisplayName": "Demo2",
+  "description": null,
+  "environmentId": "8bf1e66a-c7ef-e6f7-973d-450f64251b44",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "region": "prod",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "budgets": {
+          "entitySetName": "promx_budgets",
+          "logicalName": "promx_budget"
+        },
+        "notificationdeliveries": {
+          "entitySetName": "promx_notificationdeliveries",
+          "logicalName": "promx_notificationdelivery"
+        },
+        "audiencesets": {
+          "entitySetName": "promx_audiencesets",
+          "logicalName": "promx_audienceset"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  },
+  "version": "1.0"
+}

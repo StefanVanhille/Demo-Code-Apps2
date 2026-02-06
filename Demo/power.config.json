@@ -1,0 +1,34 @@
+{
+  "appId": "",
+  "appDisplayName": "Demo",
+  "description": null,
+  "environmentId": "8bf1e66a-c7ef-e6f7-973d-450f64251b44",
+  "InstanceURL": "https://promx365devnew.crm4.dynamics.com/",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "region": "prod",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "state": "Configured",
+      "instanceUrl": "https://promx365devnew.crm4.dynamics.com/",
+      "webApiVersion": "v9.0",
+      "dataSources": {
+        "budgets": {
+          "entitySetName": "promx_budgets",
+          "logicalName": "promx_budget",
+          "isHidden": false
+        },
+        "notificationdeliveries": {
+          "entitySetName": "promx_notificationdeliveries",
+          "logicalName": "promx_notificationdelivery",
+          "isHidden": false
+        }
+      },
+      "version": "v9.0",
+      "environmentVariableName": ""
+    }
+  }
+}
